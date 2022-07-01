@@ -63,7 +63,6 @@ class AddTask extends React.Component {
             </label>
             <label htmlFor="prioritet" className='Priority'> Priority
                 <input className='control' type="checkbox" checked={this.state.prioritet} id="prioritet" onChange={this.handlePrioritet}/>
-              
             </label>
             
             <button onClick={this.handleClick} className="Add">Add</button>

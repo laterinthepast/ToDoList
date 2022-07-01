@@ -45,14 +45,13 @@ label.Priority{
     display: flex;
     flex-basis:45%;
     align-items: center;
-    
 }
 .control{
     display: inline-block;
     border: 1px solid #212121;;
     margin: 5px;
-    width: 1.5em;
-    height: 1.5em;
+    width: 25px;
+    height: 25px;
     text-align: center;
     vertical-align: middle;
     color: rgba(0, 0, 0, 0);
