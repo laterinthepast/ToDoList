@@ -45,9 +45,18 @@ label.Priority{
     display: flex;
     flex-basis:45%;
     align-items: center;
+    
 }
-input.Priority{
-    flex-basis: 2%;  
+.control{
+    display: inline-block;
+    border: 1px solid #212121;;
+    margin: 5px;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    vertical-align: middle;
+    color: rgba(0, 0, 0, 0);
+    user-select: none;
 }
 
 button{
@@ -113,8 +122,16 @@ button:hover{
     }
   
     button{
-        height: 30px;
+        height: 20px;
     }
+    input.Text{
+        height: 20px;
+        flex-basis: 40%;
+        border: solid 1px black;
+        padding: 0 10px; 
+        text-align: center;
+        font-size: 17px;
+    } 
 }
 /* @media screen and (max-width:800px) {
     .AddTask{
