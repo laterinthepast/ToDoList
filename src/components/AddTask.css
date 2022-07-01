@@ -1,0 +1,171 @@
+.AddTask{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    height: 200px;
+    justify-content: center;
+}
+
+input.Text{
+    height: 40px;
+    flex-basis: 40%;
+    border: solid 1px black;
+    padding: 0 10px; 
+    text-align: center;
+    font-size: 17px;
+} 
+
+ input.Text:focus{
+    outline: none;
+}
+
+
+label.Text{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+} 
+
+label.Date{
+    display:flex;
+    flex-basis: 52%;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+input.Date{
+    display: flex;
+   margin-right: 10%;
+    align-items:center;
+    /* background-color: orange; */ 
+}
+
+label.Priority{
+    display: flex;
+    flex-basis:45%;
+    align-items: center;
+}
+input.Priority{
+    flex-basis: 2%;  
+}
+
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 15px;
+    width: 70px;
+    height: 40px;
+    margin:auto 0;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-left: 20px;
+    background-color: rgb(131, 176, 176); 
+    border: solid 1px black;
+    
+}
+button:hover{
+    background-color: rgb(131, 176, 176);
+    color: white;
+}
+
+@media screen and (max-width:1280px) {
+    label.Text{
+        flex-basis: 100%;
+        align-items: center;
+        justify-content: center;  
+    }
+    input.Text{
+        flex-basis: 40%;   
+    }
+    
+}
+
+@media screen and (max-width:1024px) {
+    .AddTask{
+        width: 800px;
+    }
+
+    label.Text{
+        flex-basis: 100%;
+        align-items: center;
+        justify-content: center; 
+    }
+   
+    label.Date{
+        margin-left: 10px;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .AddTask{
+        height: 140px;
+    }
+    button{
+        height: 30px;
+    }
+}
+@media screen and (max-width:640px) {
+    .AddTask{
+        height: 120px;
+    }
+  
+    button{
+        height: 30px;
+    }
+}
+/* @media screen and (max-width:800px) {
+    .AddTask{
+        width: 500px;
+        /* background-color: orange; */
+        /* background-color: red;
+    }
+
+    label.Text{
+        flex-basis: 80%;   
+        background-color: rgb(174, 174, 46);
+    }
+    input.Text{
+        flex-basis: 80%;
+    }
+   
+    label.Date{
+        margin-left: 10px;
+    
+    }
+  
+    
+} */ 
+/* @media screen and (max-width:640px) {
+    label.Text{
+         flex-basis: 60%;
+        background-color: rgb(208, 0, 28);
+    }
+    .AddTask{
+        display: flex;
+        width: 500px;
+        background-color: gray;
+        height: 125px;
+        
+    }
+    input.Text{
+        display: flex;
+        flex-basis: 70%;
+        flex-wrap: wrap;
+    }
+  
+    button{
+        
+        height: 30px;
+        
+
+    }
+    label.Date{
+        margin-left: 10px;
+    }
+   
+    
+}    */
+ 

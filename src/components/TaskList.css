@@ -1,0 +1,148 @@
+.TaskList{
+    display: flex;
+    flex-wrap: nowrap;
+    min-width: 1300px; 
+    min-height: 750px;
+    justify-content: space-around;  
+    font-size: 16px;
+}
+
+.activeTask{
+    flex-basis: 46%;
+    text-align:center;
+    border-right: solid 1px;
+    /* background-color: lightgreen;   */  
+    min-height: 50px;
+}
+
+.doneTask{
+    flex-basis: 46%;
+    text-align: center;
+    min-height: 50px;
+    
+    /* background-color: blanchedalmond; */
+}
+
+@media screen and (max-width:1280px) {
+   .TaskList{
+    min-width: 1100px;
+   }
+   /* .activeTask{
+    flex-basis: 47%;
+    min-height: 60px;
+   }
+   .doneTask{
+    flex-basis: 47%;
+    min-height: 60px;
+} */
+    }
+
+@media screen and (max-width:1200px) {
+    .TaskList{ 
+    min-width: 900px;
+    }
+    .activeTask{
+    flex-basis: 40%;
+    }
+    .doneTask{
+    flex-basis: 40%;
+        
+    } 
+    }
+@media screen and (max-width:1024px) {
+     .TaskList{
+    min-width: 750px;
+    }
+
+    .activeTask{
+    flex-basis: 45%;
+    
+    }
+    .doneTask{
+    flex-basis: 45%;
+    }
+    }
+
+    @media screen and (max-width:800px) {
+        .TaskList{
+            flex-wrap: wrap;
+            flex-direction: row;
+            min-height: 400px;
+            flex-grow: 1;
+            
+        }
+        .activeTask{
+            flex-basis: 70%;
+            border-right: none; 
+        }
+        .doneTask{
+            flex-basis: 70%;
+        }
+    }
+
+    @media screen and (max-width:640px) {
+        .activeTask{
+            flex-basis: 60%;
+        }
+        .doneTask{
+            flex-basis: 60%;
+           
+        }
+    }
+/* @media screen and (max-width:800px) {
+    .TaskList{
+        display: flex;
+      align-items: flex-start;
+    min-width: 600px;
+    font-size: 12px;
+    background-color: darkcyan;
+    flex-wrap: wrap; 
+    min-height: 300px;
+    justify-content: flex-start; 
+    
+    }
+    .activeTask{
+        flex-basis: 100%;  
+        background-color: yellow;   
+        height: 30px;
+    }
+    .doneTask{
+        flex-basis: 100%;
+        background-color: grey; 
+        height: 30px;
+    }
+    }
+
+ @media screen and (max-width:640px) {
+    .TaskList{
+    min-width: 300px;
+    background-color: darkcyan;
+    flex-wrap: wrap;                  
+    }
+    .activeTask{
+        flex-basis: 100%;
+    }
+    .doneTask{
+        flex-basis: 100%;
+    }
+
+    } */
+       
+
+
+
+ 
+
+ /* .TaskList{
+    margin: 20px;
+    display: block;
+     
+ }
+
+ .active{
+     
+     margin: 10px;
+     
+     
+     
+ } */ 
